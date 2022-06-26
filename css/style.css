@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@700&family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-SemiBold.woff2') format('woff2'),
+        url('OpenSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular.woff2') format('woff2'),
+        url('OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Bold.woff2') format('woff2'),
+        url('OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans Condensed';
+    src: url('FiraSansCondensed-Bold.woff2') format('woff2'),
+        url('FiraSansCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    
+
+.logo-icon {
+    display: flex;
+    width: 185px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-icon a {
+    margin-left: 16px;
+    text-decoration: none;
+    font-family: 'Open Sans', monospace;
+    color: #222;
+}
+
+.logo-icon a:hover {
+    color: #DE2E54;
+}
+
+.navbar-list  {
+    display: flex;
+    width: 497px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 32px;
+}
+.navbar-list li {
+    list-style: none;
+}
+.navbar-list li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.btn {
+    width: 189px;
+    height: 47px;
+    border-radius: 8px;
+    padding: 12px 24px 12px 24px;
+    background-color: #DE2E54;
+    border: none;
+}
+
+.btn a {
+    color: #fff;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
